@@ -1,0 +1,42 @@
+{
+  "scan_schedule": [
+    "08:00",
+    "11:00",
+    "14:00",
+    "17:00",
+    "20:00"
+  ],
+  "rules": [
+    {
+      "type": "discount",
+      "minimum_discount": 69
+    },
+    {
+      "type": "price",
+      "maximum_price": 30
+    },
+    {
+      "category": "jeans",
+      "sizes": ["32"],
+      "maximum_price": 100
+    },
+    {
+      "category": "polo",
+      "sizes": ["M", "L"],
+      "maximum_price": 70
+    },
+    {
+      "category": "shoes",
+      "sizes": ["43", "44"],
+      "maximum_price": 100,
+      "minimum_discount": 64
+    },
+    {
+      "category": "flip_flops",
+      "sizes": ["43", "44"],
+      "maximum_price": 100,
+      "minimum_discount": 64
+    }
+  ],
+  "stock_required": true
+}
